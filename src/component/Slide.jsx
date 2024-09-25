@@ -17,7 +17,7 @@ const Slide = () => {
       <Swiper
         watchSlidesProgress={true}
         slidesPerView={3}
-        className="mySwiper z-10">
+        className="mySwiper z-10 m-0">
         {images.map((image) => (
           <SwiperSlide key={image.id}>
             {/* Ensure the image link is correct */}
