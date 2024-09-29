@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
-const Navbar = ({ showSearch, lightTheme }) => {
+const Navbar = ({ showSearch, lightTheme, background, absolutePosition }) => {
   const [navLinkColor, setNavLinkColor] = useState("black");
   const [logo, setLogo] = useState("logo.png");
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (lightTheme) {
@@ -18,21 +19,25 @@ const Navbar = ({ showSearch, lightTheme }) => {
   }, []);
 
   return (
-    <div className="navbar">
+    <div className={`navbar py-10 px-36 z-10 ${absolutePosition && 'absolute'} ${background && 'bg-black/5'}`}>
       <a href="/">
         <img src={logo} className="w-32" />
-
       </a>
+
       {
-        showSearch &&
-        <div className="form-control mx-auto flex relative text-base">
-          <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white font-bold" />
-          <input
-          type="text"
-          placeholder="Search your Destination..."
-          className="!w-[370px] md:w-auto pl-10 py-3 bg-white/20 text-white font-semibold placeholder-white rounded-[5px] border outline-white" />
-        </div>
+        showSearch && (
+          <div className="form-control mx-auto flex relative text-base">
+            <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white font-bold" />
+            <input
+              type="text"
+              placeholder="Search your Destination..."
+              className={`!w-[370px] md:w-auto pl-10 py-3 font-semibold rounded-[5px] border !bg-transparent ${lightTheme ? "text-black placeholder-black border-black outline-black" : "text-white placeholder-white outline-white"
+                }`}
+            />
+          </div>
+        )
       }
+
 
       <div
         className="flex items-center gap-[50px] text-base font-medium"
@@ -42,7 +47,8 @@ const Navbar = ({ showSearch, lightTheme }) => {
         <NavLink>Blog</NavLink>
         <NavLink>Contact</NavLink>
         <button
-          className="btn text-black px-7 py-3 bg-[#f9a51a] rounded-[5px] border-none">
+          onClick={() => navigate('/login')}
+          className="btn btn-md text-black px-10 bg-[#f9a51a] rounded-[5px] border-none">
           Login
         </button>
       </div>

@@ -1,0 +1,417 @@
+[
+  {
+    "id": "ABC1234",
+    "placeName": "Sundarbans",
+    "imageLink": "images/__sundarban.jpg",
+    "description": "The Sundarbans is the largest mangrove forest in the world and a UNESCO World Heritage Site, home to the Royal Bengal Tiger and a diverse range of wildlife. Covering an area of approximately 10,000 square kilometers, this unique ecosystem is crisscrossed by a complex network of tidal waterways, mudflats, and small islands, providing a haven for various flora and fauna. Visitors can explore the lush greenery and rich biodiversity through boat tours and wildlife safaris, witnessing the beauty of the natural habitat. The Sundarbans also supports many local communities who rely on fishing and honey collection for their livelihood, giving travelers a chance to experience the vibrant culture and traditions of the region. Additionally, the area's diverse avian population makes it a paradise for bird watchers. The tranquility of this region, combined with its stunning landscapes and warm hospitality, makes it a must-visit destination for anyone traveling in Bangladesh.",
+    "bestTimeToVisit": "November to February",
+    "activities": [
+      "Wildlife watching",
+      "Boat tours",
+      "Mangrove exploration"
+    ],
+    "travelTips": "Always carry insect repellent and dress appropriately for boat rides.",
+    "rating": "4.5",
+    "weather": "Tropical and humid",
+    "hotels": [
+      {
+        "hotelName": "Sundarban Resort",
+        "images": [
+          "images/sundarban_resort_1.jpg",
+          "images/sundarban_resort_2.jpg",
+          "images/sundarban_resort_3.jpg"
+        ],
+        "heading": "Eco-Friendly Stay in Nature",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 2
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner", "kitchen"],
+        "cancellationFlexibility": true,
+        "rating": 4.6,
+        "numberOfRatings": 150,
+        "chargePerNight": 150,
+        "totalPrice": 450
+      },
+      {
+        "hotelName": "Tiger's Den",
+        "images": [
+          "images/tigers_den_1.jpg",
+          "images/tigers_den_2.jpg",
+          "images/tigers_den_3.jpg"
+        ],
+        "heading": "Unique Stay in the Heart of the Mangroves",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": false,
+        "rating": 4.5,
+        "numberOfRatings": 200,
+        "chargePerNight": 180,
+        "totalPrice": 540
+      },
+      {
+        "hotelName": "Nature's Retreat",
+        "images": [
+          "images/natures_retreat_1.jpg",
+          "images/natures_retreat_2.jpg",
+          "images/natures_retreat_3.jpg"
+        ],
+        "heading": "A Tranquil Getaway Surrounded by Nature",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 2
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.7,
+        "numberOfRatings": 130,
+        "chargePerNight": 170,
+        "totalPrice": 510
+      }
+    ]
+  },
+  {
+    "id": "DEF5678",
+    "placeName": "Cox's Bazar",
+    "imageLink": "images/__cox's_bazar.jpg",
+    "description": "Cox's Bazar is the longest sea beach in the world, located in the southeastern part of Bangladesh. With a stretch of 120 kilometers of unbroken sandy beach, it is a popular tourist destination known for its stunning natural beauty and vibrant beach activities. The clear blue waters of the Bay of Bengal offer an array of recreational opportunities, from swimming and sunbathing to water sports like jet skiing and surfing. The beach is lined with numerous hotels, restaurants, and shops, making it a lively destination for both local and international tourists. Beyond the beach, visitors can explore nearby attractions such as Himchari National Park, known for its scenic beauty, and the fishing port of Cox's Bazar, where fresh seafood can be enjoyed. The sunset views over the horizon are truly breathtaking, drawing visitors from all around to experience the mesmerizing colors of the sky. Cox's Bazar is not just a place for relaxation but also a hub for adventure and cultural exploration.",
+    "bestTimeToVisit": "November to March",
+    "activities": [
+      "Beach walks",
+      "Surfing",
+      "Seafood dining"
+    ],
+    "travelTips": "Try the local seafood delicacies and watch the sunset from the beach.",
+    "rating": "4.8",
+    "weather": "Warm and sunny",
+    "hotels": [
+      {
+        "hotelName": "Ocean Paradise Hotel",
+        "images": [
+          "images/ocean_paradise_1.jpg",
+          "images/ocean_paradise_2.jpg",
+          "images/ocean_paradise_3.jpg"
+        ],
+        "heading": "Luxury Stay by the Sea",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 2
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner", "kitchen"],
+        "cancellationFlexibility": true,
+        "rating": 4.9,
+        "numberOfRatings": 300,
+        "chargePerNight": 250,
+        "totalPrice": 750
+      },
+      {
+        "hotelName": "Sea View Resort",
+        "images": [
+          "images/sea_view_1.jpg",
+          "images/sea_view_2.jpg",
+          "images/sea_view_3.jpg"
+        ],
+        "heading": "Comfortable Stay with Ocean Views",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.6,
+        "numberOfRatings": 250,
+        "chargePerNight": 200,
+        "totalPrice": 600
+      },
+      {
+        "hotelName": "Cox's Bazar Beach Hotel",
+        "images": [
+          "images/coxs_bazar_beach_1.jpg",
+          "images/coxs_bazar_beach_2.jpg",
+          "images/coxs_bazar_beach_3.jpg"
+        ],
+        "heading": "Relaxing Beachfront Accommodation",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": false,
+        "rating": 4.5,
+        "numberOfRatings": 120,
+        "chargePerNight": 180,
+        "totalPrice": 540
+      }
+    ]
+  },
+  {
+    "id": "GHI9101",
+    "placeName": "Sajek",
+    "imageLink": "images/__sajek.jpg",
+    "description": "Sajek Valley is a scenic hill station in the Chittagong Hill Tracts, known for its stunning views of the clouds, lush green hills, and tranquil environment. Located at an altitude of 1,400 feet above sea level, Sajek is often referred to as the 'Queen of Hills' for its breathtaking landscapes and natural beauty. The valley is surrounded by dense forests, rolling hills, and indigenous communities, providing a unique cultural experience. Visitors can indulge in activities such as trekking, camping, and exploring the rich biodiversity of the area. The panoramic views of the hills and valleys, especially during sunrise and sunset, are truly mesmerizing. Additionally, Sajek offers a glimpse into the lifestyle and traditions of the indigenous people, allowing travelers to connect with the local culture. The tranquility of the region, combined with its stunning landscapes and warm hospitality, makes it a must-visit destination for anyone traveling in Bangladesh.",
+    "bestTimeToVisit": "October to April",
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Cultural exploration"
+    ],
+    "travelTips": "Bring warm clothing for chilly nights, and respect local customs.",
+    "rating": "4.7",
+    "weather": "Cool and pleasant",
+    "hotels": [
+      {
+        "hotelName": "Hilltop Resort",
+        "images": [
+          "images/hilltop_resort_1.jpg",
+          "images/hilltop_resort_2.jpg",
+          "images/hilltop_resort_3.jpg"
+        ],
+        "heading": "A Cozy Retreat Surrounded by Nature",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.8,
+        "numberOfRatings": 100,
+        "chargePerNight": 130,
+        "totalPrice": 390
+      },
+      {
+        "hotelName": "Cloud Nine Hotel",
+        "images": [
+          "images/cloud_nine_1.jpg",
+          "images/cloud_nine_2.jpg",
+          "images/cloud_nine_3.jpg"
+        ],
+        "heading": "Stunning Views and Comfortable Stay",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": false,
+        "rating": 4.6,
+        "numberOfRatings": 80,
+        "chargePerNight": 140,
+        "totalPrice": 420
+      },
+      {
+        "hotelName": "Sajek Valley Inn",
+        "images": [
+          "images/sajek_valley_1.jpg",
+          "images/sajek_valley_2.jpg",
+          "images/sajek_valley_3.jpg"
+        ],
+        "heading": "Charming Accommodation in a Scenic Location",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.5,
+        "numberOfRatings": 90,
+        "chargePerNight": 120,
+        "totalPrice": 360
+      }
+    ]
+  },
+  {
+    "id": "JKL2345",
+    "placeName": "Sreemangal",
+    "imageLink": "images/__sreemangal.jpg",
+    "description": "Sreemangal is a small town in the northeastern part of Bangladesh, known as the 'Tea Capital' of the country. It is famous for its sprawling tea gardens, rainforests, and wildlife. The region is characterized by lush green hills and a temperate climate, making it an ideal location for tea cultivation. Visitors can enjoy tours of the tea estates, where they can learn about the tea-making process and sample various types of tea. Sreemangal is also home to several national parks, including the Lawachara National Park, which is known for its diverse flora and fauna, including the endangered hoolock gibbons. The tranquility of the tea gardens, combined with the natural beauty of the area, makes it a perfect destination for nature lovers and those seeking relaxation. Additionally, the town offers a glimpse into the local culture and traditions of the tea workers, providing travelers with a unique experience of Bangladesh's rich heritage.",
+    "bestTimeToVisit": "September to March",
+    "activities": [
+      "Tea garden tours",
+      "Wildlife safari",
+      "Rainforest trekking"
+    ],
+    "travelTips": "Don't miss the tea tasting sessions at local estates.",
+    "rating": "4.6",
+    "weather": "Mild and pleasant",
+    "hotels": [
+      {
+        "hotelName": "Tea Garden View Hotel",
+        "images": [
+          "images/tea_garden_view_1.jpg",
+          "images/tea_garden_view_2.jpg",
+          "images/tea_garden_view_3.jpg"
+        ],
+        "heading": "Breathtaking Views and Comfort",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner", "kitchen"],
+        "cancellationFlexibility": true,
+        "rating": 4.7,
+        "numberOfRatings": 200,
+        "chargePerNight": 160,
+        "totalPrice": 480
+      },
+      {
+        "hotelName": "Nature's Paradise Inn",
+        "images": [
+          "images/natures_paradise_1.jpg",
+          "images/natures_paradise_2.jpg",
+          "images/natures_paradise_3.jpg"
+        ],
+        "heading": "Serenity and Comfort in the Hills",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": false,
+        "rating": 4.5,
+        "numberOfRatings": 150,
+        "chargePerNight": 140,
+        "totalPrice": 420
+      },
+      {
+        "hotelName": "Sreemangal Hill Resort",
+        "images": [
+          "images/sreemangal_hill_1.jpg",
+          "images/sreemangal_hill_2.jpg",
+          "images/sreemangal_hill_3.jpg"
+        ],
+        "heading": "Comfortable Stay Surrounded by Nature",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.6,
+        "numberOfRatings": 120,
+        "chargePerNight": 150,
+        "totalPrice": 450
+      }
+    ]
+  },
+  {
+    "id": "MNO6789",
+    "placeName": "Kuakata",
+    "imageLink": "images/__kuakata.png",
+    "description": "Kuakata is a beautiful beach town located in the southern part of Bangladesh, famous for panoramic views of both sunrise and sunset over the Bay of Bengal. The town offers a unique experience where visitors can enjoy the serene beauty of the beach while witnessing the breathtaking natural phenomenon of the sun rising and setting over the ocean. With its sandy shores stretching for miles, Kuakata is a paradise for beach lovers and offers various activities such as swimming, fishing, and cultural tours to nearby local villages. The area is rich in biodiversity, providing opportunities for eco-tourism and exploration of marine life. Additionally, Kuakata is known for its hospitality, with numerous hotels and guesthouses providing comfortable accommodations for travelers. The vibrant local culture and delicious seafood cuisine further enhance the experience, making it a must-visit destination for anyone looking to relax by the sea while immersing themselves in the natural beauty of Bangladesh.",
+    "bestTimeToVisit": "October to February",
+    "activities": [
+      "Sunrise and sunset viewing",
+      "Fishing",
+      "Cultural tours"
+    ],
+    "travelTips": "Visit local markets for fresh seafood and local handicrafts.",
+    "rating": "4.7",
+    "weather": "Tropical and humid",
+    "hotels": [
+      {
+        "hotelName": "Kuakata Beach Resort",
+        "images": [
+          "images/kuakata_resort_1.jpg",
+          "images/kuakata_resort_2.jpg",
+          "images/kuakata_resort_3.jpg"
+        ],
+        "heading": "Comfortable Stay Just Steps from the Beach",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner", "kitchen"],
+        "cancellationFlexibility": true,
+        "rating": 4.6,
+        "numberOfRatings": 250,
+        "chargePerNight": 200,
+        "totalPrice": 600
+      },
+      {
+        "hotelName": "Kuakata Sunset Inn",
+        "images": [
+          "images/kuakata_sunset_1.jpg",
+          "images/kuakata_sunset_2.jpg",
+          "images/kuakata_sunset_3.jpg"
+        ],
+        "heading": "Relaxing Stay with Local Touch",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": false,
+        "rating": 4.5,
+        "numberOfRatings": 120,
+        "chargePerNight": 190,
+        "totalPrice": 570
+      },
+      {
+        "hotelName": "Beachfront Kuakata Hotel",
+        "images": [
+          "images/beachfront_kuakata_1.jpg",
+          "images/beachfront_kuakata_2.jpg",
+          "images/beachfront_kuakata_3.jpg"
+        ],
+        "heading": "Ideal Location for Beach Lovers",
+        "roomDetails": {
+          "guests": 4,
+          "bedrooms": 2,
+          "beds": 2,
+          "baths": 1
+        },
+        "location": "https://goo.gl/maps/XYZ",
+        "services": ["wifi", "air conditioner"],
+        "cancellationFlexibility": true,
+        "rating": 4.8,
+        "numberOfRatings": 200,
+        "chargePerNight": 220,
+        "totalPrice": 660
+      }
+    ]
+  }
+]

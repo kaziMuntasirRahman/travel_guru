@@ -3,8 +3,6 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -119,13 +117,26 @@ body {
   }
 }
 
-.mySwiper{
-  
+.swiper {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-  z-index: 10;
-  height: 416px;
+  display: block;
   width: 270px;
-  margin-right: 20px;
+  height: 416px;
+  object-fit: cover;
 }
