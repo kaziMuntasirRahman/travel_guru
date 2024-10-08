@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = ({ showSearch, lightTheme, background, absolutePosition }) => {
   const [navLinkColor, setNavLinkColor] = useState("black");
@@ -10,24 +10,25 @@ const Navbar = ({ showSearch, lightTheme, background, absolutePosition }) => {
   useEffect(() => {
     if (lightTheme) {
       setNavLinkColor("black");
-      setLogo("logo.png");
+      setLogo("/logo.png");
     } else {
       setNavLinkColor("white");
-      setLogo("logo-white.png");
+      setLogo("/logo-white.png");
     }
 
   }, []);
 
   return (
-    <div className={`navbar py-10 px-36 z-10 ${absolutePosition && 'absolute'} ${background && 'bg-black/5'}`}>
-      <a href="/">
+    <div className={`navbar py-10 px-[135px] z-10 ${absolutePosition && 'absolute'} ${background && 'bg-black/5'}`}>
+      <Link to="/">
         <img src={logo} className="w-32" />
-      </a>
+      </Link>
 
       {
         showSearch && (
           <div className="form-control mx-auto flex relative text-base">
-            <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white font-bold" />
+            <CiSearch className={`absolute left-3  !text-white top-1/2 transform -translate-y-1/2 text-lg font-bold ${lightTheme ? "text-black" : "!text-white"
+              }`} />
             <input
               type="text"
               placeholder="Search your Destination..."
@@ -40,7 +41,7 @@ const Navbar = ({ showSearch, lightTheme, background, absolutePosition }) => {
 
 
       <div
-        className="flex items-center gap-[50px] text-base font-medium"
+        className="flex items-center gap-[50px] text-base font-medium ml-auto"
         style={{ color: `${navLinkColor}` }}>
         <NavLink>News</NavLink>
         <NavLink>Destination</NavLink>

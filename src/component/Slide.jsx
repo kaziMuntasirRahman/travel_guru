@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import '../../src/style.css';
 import { FaArrowRight } from 'react-icons/fa';
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Slide = () => {
   const [places, setPlaces] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch('/data/places.json')
@@ -78,8 +81,8 @@ const Slide = () => {
     <div className='overflow-hidden z-0'>
       <div className="carousel">
         <div className="list">
-          {places.map((place, index) => (
-            <div className="item" key={index}>
+          {places.map((place) => (
+            <div className="item" key={place.id}>
               <img src={place.imageLink} alt={place.placeName} />
               <div className="content">
                 <div className="author">
@@ -88,14 +91,16 @@ const Slide = () => {
                 <div className="title">{place.placeName ? place.placeName.toUpperCase() : 'Unknown Place'}</div>
                 <div className="topic">{place.bestTimeToVisit || 'Best time not available'}</div>
                 <div className="des mt-5">
-                  {place.description.length>200?place.description.slice(0,250)+"....":place.description}
-                  </div>
-                <div className="buttons flex items-center gap-5 mt-5">
-                  <button
-                    className="text-black px-7 py-4 bg-[#f9a51a] flex items-center gap-[10px] ">
+                  {place.description.length > 200 ? place.description.slice(0, 250) + "...." : place.description}
+                </div>
+                <div
+                  className="buttons flex items-center gap-5 mt-5 font-semibold">
+                  <Link
+                    to={(`/booking/${place.id}`)}
+                    className="text-black px-7 py-4 bg-[#f9a51a] flex items-center gap-[10px]">
                     <p>BOOKING</p>
                     <FaArrowRight />
-                  </button>
+                  </Link>
                   <button className='px-7 py-4 bg-transparent text-white border-[1px] border-white'>SEE MORE</button>
                 </div>
               </div>
@@ -116,8 +121,16 @@ const Slide = () => {
         </div>
 
         <div className="arrows">
-          <button id="prev">{"<"}</button>
-          <button id="next">{">"}</button>
+          <button
+            className='btn'
+            id="prev">
+            <MdOutlineKeyboardArrowLeft className='text-2xl' />
+          </button>
+          <button
+            className='btn'
+            id="next">
+            <MdOutlineKeyboardArrowRight className='text-2xl' />
+          </button>
         </div>
       </div>
     </div>

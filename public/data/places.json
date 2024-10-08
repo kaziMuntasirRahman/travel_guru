@@ -100,9 +100,9 @@
       {
         "hotelName": "Ocean Paradise Hotel",
         "images": [
-          "images/ocean_paradise_1.jpg",
-          "images/ocean_paradise_2.jpg",
-          "images/ocean_paradise_3.jpg"
+          "images/hotel-1.png",
+          "images/hotel-1.png",
+          "images/hotel-1.png"
         ],
         "heading": "Luxury Stay by the Sea",
         "roomDetails": {
@@ -122,9 +122,9 @@
       {
         "hotelName": "Sea View Resort",
         "images": [
-          "images/sea_view_1.jpg",
-          "images/sea_view_2.jpg",
-          "images/sea_view_3.jpg"
+          "images/hotel-2.png",
+          "images/hotel-2.png",
+          "images/hotel-2.png"
         ],
         "heading": "Comfortable Stay with Ocean Views",
         "roomDetails": {
@@ -144,9 +144,9 @@
       {
         "hotelName": "Cox's Bazar Beach Hotel",
         "images": [
-          "images/coxs_bazar_beach_1.jpg",
-          "images/coxs_bazar_beach_2.jpg",
-          "images/coxs_bazar_beach_3.jpg"
+          "images/hotel-3.png",
+          "images/hotel-3.png",
+          "images/hotel-3.png"
         ],
         "heading": "Relaxing Beachfront Accommodation",
         "roomDetails": {
